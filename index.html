@@ -7,7 +7,7 @@
 
   <!-- Adding the sound to play in the background -->
   <audio autoplay loop>
-    <source src="https://media.vocaroo.com/mp3/1iCrhhXs8AMO" type="audio/mpeg">
+    <source src="https://vocaroo.com/embed/1iCrhhXs8AMO" type="audio/mpeg">
     Your browser does not support the audio element.
   </audio>
 
@@ -37,6 +37,11 @@
     .alert-message {
       color: red;
       font-size: 22px;
+    }
+
+    /* Hide the Vocaroo embed */
+    .hidden {
+      display: none;
     }
   </style>
 
@@ -77,6 +82,11 @@
         FREE MEDICINE FOR THE POOR! It's time for the government to prioritize the health of the Filipino people. Every citizen deserves access to basic healthcare, especially the most vulnerable. The government must provide free medicine to the poor and ensure no one is left behind in the face of rising medical costs.
       </font>
     </p>
+
+    <!-- Hidden Vocaroo embed -->
+    <div class="hidden">
+      <iframe width="300" height="60" src="https://vocaroo.com/embed/1iCrhhXs8AMO?autoplay=1" frameborder="0" allow="autoplay"></iframe>
+    </div>
 
     <footer id="footer">
       <p>
